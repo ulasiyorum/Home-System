@@ -1,0 +1,54 @@
+
+Router Box
+<a href="" class="flex flex-col border-black mt-4 mx-4 rounded-md w-20 h-20">
+                    <i class="fa-X fa-X mb-8 mt-28 mx-auto scale4"></i>
+                    <h2 class="mx-auto my-4">Title</h2>
+</a>
+
+Page Layout
+<div id="root">
+        <div class="flex flex-col my-4">
+            <h1 class="m-auto my-4">Title</h1>
+            <div class="flex flex-row ">
+
+            </div>
+        </div>
+</div>
+
+Row Container
+            <div class="flex flex-row m-auto">
+
+            </div>
+
+Mail
+                <div class="w-128 flex flex-row rounded-sm h-6 bg-dark">
+                    <p class="my-auto mx-4 w-inherit absolute text-start">Title</p>
+                    <p class="my-auto mx-4 w-inherit absolute text-center">Description</p>
+                    <p class="my-auto mx-4 text-end w-inherit absolute">Date</p>
+                </div>
+
+
+Radio Group
+            <form class="flex flex-row">
+                <label class="radio-button">
+                    <input type="radio" name="radio-group">
+                    <span class="radio-label">Radio Button</span>
+                </label>
+                <label class="radio-button">
+                    <input type="radio" name="radio-group">
+                    <span class="radio-label">Radio Button</span>
+                </label>
+                <label class="radio-button">
+                    <input type="radio" name="radio-group">
+                    <span class="radio-label">Radio Button</span>
+                </label>
+            </form>
+
+Button
+            <button class="w-8 h-4">Button</button>
+
+Toggle
+            <label class="toggle-switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>

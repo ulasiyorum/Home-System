@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/f590c28806.js" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href="../styles.css";/>
+    <title>Music</title>
+  </head>
+  <body>
+    <div id="root">
+        <div class="flex flex-col my-4">
+          <a href="../producer_main.html" class="flex flex-col absolute mx-4 w-8">
+            <i class="fa-solid fa-arrow-left mx-4"></i>
+            <h4>Back</h4>
+          </a>
+          <div class="flex flex-row m-auto">
+            <h1 class="my-4">Music</h1>
+            <button id="add-music" class="w-4 h-4 my-4 bg-success ml-4">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+          </div>
+          <div class="flex flex-col border-black-8 rounded-sm w-32 h-16 m-auto ">
+            <h1 id="mus-title" class="mx-auto my-4">Music Title</h1>
+            <h3 id="mus-singer" class="mx-auto my-4">Made By</h1>
+              <div class="flex flex-row my-4 mx-auto">
+                <button id="prev-music" class="w-4 h-4 mx-4 my-4 bg-info">
+                  <i class="fa-solid fa-backward-step scale2"></i>
+                </button>
+                <button class="w-4 h-4 mx-4 my-4 bg-info">
+                  <i class="fa-solid fa-pause scale2"></i>
+                </button>
+                <button class="w-4 h-4 mx-4 my-4 bg-info">
+                  <i class="fa-solid fa-play scale2"></i>
+                </button>
+                <button id="next-music" class="w-4 h-4 mx-4 my-4 bg-info">
+                  <i class="fa-solid fa-forward-step scale2"></i>
+                </button>
+              </div>
+          </div>
+    </div>
+    </div>
+    <script type="module" src="../lib/producer_music.js"></script>
+  </body>
+</html>

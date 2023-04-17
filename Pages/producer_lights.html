@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/f590c28806.js" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href="../styles.css";/>
+    <title>Lights</title>
+  </head>
+  <body>
+    <div id="root">
+        
+        <div class="flex flex-col my-4">
+            <a href="../producer_main.html" class="flex flex-col absolute mx-4 w-8">
+                <i class="fa-solid fa-arrow-left mx-4"></i>
+                <h4>Back</h4>
+            </a>
+            <h1 class="m-auto my-4">Lights</h1>
+                <div class="flex m-auto flex-row ">
+                    <div class="flex flex-col border-black mt-4 mx-4 rounded-md w-20 h-20">
+                        <i class="fa-solid fa-tv mb-8 mt-16 mx-auto scale3"></i>
+                        <h3 class="mx-auto my-4">Living Room</h3>
+                        <label class="mx-auto my-4 toggle-switch">
+                            <input class="chcbLight" type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="flex flex-col border-black mt-4 mx-4 rounded-md w-20 h-20">
+                        <i class="fa-solid fa-rug mb-8 mt-16 mx-auto scale3"></i>
+                        <h3 class="mx-auto my-4">Hall</h3>
+                        <label class="mx-auto my-4 toggle-switch">
+                            <input class="chcbLight" type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="flex flex-col border-black mt-4 mx-4 rounded-md w-20 h-20">
+                        <i class="fa-solid fa-kitchen-set mb-8 mt-16 mx-auto scale3"></i>
+                        <h3 class="mx-auto my-4">Kitchen</h3>
+                        <label class="mx-auto my-4 toggle-switch">
+                            <input class="chcbLight" type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="flex flex-col border-black mt-4 mx-4 rounded-md w-20 h-20">
+                        <i class="fa-solid fa-bed mb-8 mt-16 mx-auto scale3"></i>
+                        <h3 class="mx-auto my-4">Bedroom</h3>
+                        <label class="mx-auto my-4 toggle-switch">
+                            <input class="chcbLight" type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="flex flex-col border-black mt-4 mx-4 rounded-md w-20 h-20">
+                        <i class="fa-solid fa-child mb-8 mt-16 mx-auto scale3"></i>
+                        <h3 class="mx-auto my-4">Kids Room</h3>
+                        <label class="mx-auto my-4 toggle-switch">
+                            <input class="chcbLight" type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+                <h1 class="my-10 mx-auto">Lights Level</h1>
+                    <div class="flex m-auto flex-row">
+                        <form class="flex flex-row">
+                            <label class="radio-button">
+                                <input class="rdbLight" type="radio" name="radio-group">
+                                <span class="radio-label">Low</span>
+                            </label>
+                            <label class="radio-button">
+                                <input class="rdbLight" type="radio" name="radio-group">
+                                <span class="radio-label">Medium</span>
+                            </label>
+                            <label class="radio-button">
+                                <input class="rdbLight" type="radio" name="radio-group">
+                                <span class="radio-label">High</span>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        
+    </div>
+    <script type="module" src="../lib/producer_lights.js"></script>
+  </body>
+</html>

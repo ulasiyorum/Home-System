@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/f590c28806.js" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href="../styles.css";/>
+    <title>Water</title>
+  </head>
+  <body>
+    <div id="root">
+        <div class="flex flex-col my-4">
+            <a href="../producer_main.html" class="flex flex-col absolute mx-4 w-8">
+                <i class="fa-solid fa-arrow-left mx-4"></i>
+                <h4>Back</h4>
+            </a>
+            <h1 class="m-auto my-4">Water</h1>
+            <div class="flex flex-row m-auto">
+                <div class="flex flex-col border-black mt-4 mx-4 rounded-md w-20 h-20">
+                    <i class="fa-solid fa-temperature-high mb-8 mt-16 mx-auto scale3"></i>
+                    <h3 class="mx-auto my-4">Bath Temperature</h3>
+                    <div class="flex flex-row">
+                        <button class="waterButtonDecrements ml-auto mr-4 w-4 h-4 bg-warning">
+                            <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <p class="waterNumber mx-4">0</p>
+                        <button class="waterButtonIncrement mr-auto bg-warning ml-4 w-4 h-4">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="flex flex-col border-black mt-4 mx-4 rounded-md w-20 h-20">
+                    <i class="fa-solid fa-temperature-high mb-8 mt-16 mx-auto scale3"></i>
+                    <h3 class="mx-auto my-4">Pool Temperature</h3>
+                    <div class="flex flex-row">
+                        <button class="waterButtonDecrements ml-auto mr-4 w-4 h-4 bg-warning">
+                            <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <p class="waterNumber mx-4">0</p>
+                        <button class="waterButtonIncrement mr-auto bg-warning ml-4 w-4 h-4">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-row m-auto">
+                <div class="flex flex-col border-black mt-4 mx-4 rounded-md w-20 h-20">
+                    <i class="fa-solid fa-water mb-8 mt-16 mx-auto scale3"></i>
+                    <h3 class="mx-auto my-4">Bath Volume</h3>
+                    <div class="flex flex-row">
+                        <button class="waterButtonDecrements ml-auto mr-4 w-4 h-4 bg-info">
+                            <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <p class="waterNumber mx-4">0L</p>
+                        <button class="waterButtonIncrement mr-auto bg-info ml-4 w-4 h-4">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="flex flex-col border-black mt-4 mx-4 rounded-md w-20 h-20">
+                    <i class="fa-solid fa-water mb-8 mt-16 mx-auto scale3"></i>
+                    <h3 class="mx-auto my-4">Pool Volume</h3>
+                    <div class="flex flex-row">
+                        <button class="waterButtonDecrements ml-auto mr-4 w-4 h-4 bg-info">
+                            <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <p class="waterNumber mx-4">0L</p>
+                        <button class="waterButtonIncrement mr-auto bg-info ml-4 w-4 h-4">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script type="module" src="../lib/producer_water.js"></script>
+  </body>
+</html>

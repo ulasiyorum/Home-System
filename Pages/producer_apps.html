@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/f590c28806.js" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href="../styles.css";/>
+    <title>Apps</title>
+  </head>
+  <body>
+    <div id="root">
+        <div class="flex flex-col my-4">
+            <a href="../producer_main.html" class="flex flex-col absolute mx-4 w-8">
+                <i class="fa-solid fa-arrow-left mx-4"></i>
+                <h4>Back</h4>
+            </a>
+            <h1 class="m-auto my-4">Apps</h1>
+            <div class="flex flex-col w-64 rounded-sm my-4 h-32 border-black-8 m-auto">
+                <h2 class="mx-auto">Coffee Maker</h2>
+                <form class="flex flex-row my-4 mx-auto">
+                    <label class="radio-button">
+                        <input class="cofsel" type="radio" name="radio-group">
+                        <span class="cofcont radio-label">Espresso</span>
+                    </label>
+                    <label class="radio-button">
+                        <input class="cofsel" type="radio" name="radio-group">
+                        <span class="cofcont radio-label">Filter</span>
+                    </label>
+                    <label class="radio-button">
+                        <input class="cofsel" type="radio" name="radio-group">
+                        <span class="cofcont radio-label">Nescafe</span>
+                    </label>
+                </form>
+                <form class="flex flex-row my-4 mx-auto">
+                    <label class="radio-button">
+                        <input class="cofsel" type="radio" name="radio-group">
+                        <span class="cofcont radio-label">Small</span>
+                    </label>
+                    <label class="radio-button">
+                        <input class="cofsel" type="radio" name="radio-group">
+                        <span class="cofcont radio-label">Medium</span>
+                    </label>
+                    <label class="radio-button">
+                        <input class="cofsel" type="radio" name="radio-group">
+                        <span class="cofcont radio-label">Large</span>
+                    </label>
+                </form>
+                <form class="flex flex-row my-4 mx-auto">
+                    <label class="radio-button">
+                        <input class="cofsel" type="radio" name="radio-group">
+                        <span class="cofcont radio-label">Milk</span>
+                    </label>
+                    <label class="radio-button">
+                        <input class="cofsel" type="radio" name="radio-group">
+                        <span class="cofcont radio-label">Lactose-Free Milk</span>
+                    </label>
+                    <label class="radio-button">
+                        <input class="cofsel" type="radio" name="radio-group">
+                        <span class="cofcont radio-label">No Milk</span>
+                    </label>
+                </form>
+                <button id="coffee-make" class="bg-warning w-16 h-4 m-auto">Make</button>
+            </div>
+            <div class="flex flex-col w-64 rounded-sm my-4 h-32 border-black-8 m-auto">
+                <h2 class="mx-auto">Cleaner</h2>
+                <form class="flex flex-row my-4 mx-auto">
+                    <label class="radio-button">
+                        <input class="clesel"  type="radio" name="radio-group">
+                        <span class="clecont radio-label">Fast</span>
+                    </label>
+                    <label class="radio-button">
+                        <input class="clesel"  type="radio" name="radio-group">
+                        <span class="clecont radio-label">Normal</span>
+                    </label>
+                    <label class="radio-button">
+                        <input class="clesel" type="radio" name="radio-group">
+                        <span class="clecont radio-label">Slow</span>
+                    </label>
+                </form>
+                <form class="flex flex-row my-4 mx-auto">
+                    <label class="radio-button">
+                        <input class="clesel"  type="radio" name="radio-group">
+                        <span class="clecont radio-label">Detailed</span>
+                    </label>
+                    <label class="radio-button">
+                        <input class="clesel"  type="radio" name="radio-group">
+                        <span class="clecont radio-label">Normal</span>
+                    </label>
+                    <label class="radio-button">
+                        <input class="clesel" type="radio" name="radio-group">
+                        <span class="clecont radio-label">Casual</span>
+                    </label>
+                </form>
+                <form class="flex flex-row my-4 mx-auto">
+                    <label class="radio-button">
+                        <input class="clesel"  type="radio" name="radio-group">
+                        <span class="clecont radio-label">Water</span>
+                    </label>
+                    <label class="radio-button">
+                        <input class="clesel"  type="radio" name="radio-group">
+                        <span class="clecont radio-label">No Water</span>
+                    </label>
+                </form>
+                <button id="clean-make" class="bg-warning w-16 h-4 m-auto">Make</button>
+            </div>
+        </div>
+
+    </div>
+    <script type="module" src="../lib/producer_apps.js"></script>
+  </body>
+</html>

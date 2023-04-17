@@ -1,0 +1,2 @@
+{"name":"Ula\u015f","email":"ulasgergerli@gmail.com","password":"123","user_type":"producer"}
+{"name":"berkay","email":"berkay@outlook.com","password":"123","user_type":"consumer"}

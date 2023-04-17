@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/f590c28806.js" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href="../styles.css";/>
+    <title>Music</title>
+  </head>
+  <body>
+    <div id="root">
+        <div class="flex flex-col mx-auto my-4">
+          <a href="../consumer_main.html" class="flex flex-col absolute mx-4 w-8">
+            <i class="fa-solid fa-arrow-left mx-4"></i>
+            <h4>Back</h4>
+          </a>
+          <div class="flex flex-row m-auto">
+            <h1 class="my-4">Music</h1>
+          </div>
+          <div class="flex flex-col border-black-8 rounded-sm w-32 h-16 m-auto ">
+            <h5 class="mx-auto my-4">NOW PLAYING</h5>
+            <h1 id="mus-title" class="mx-auto my-4">Music Title</h1>
+            <h3 id="mus-singer" class="mx-auto my-4">Made By</h1>
+          </div>
+        </div>
+    </div>
+    <script type="module" src="../lib/consumer_music.js"></script>
+  </body>
+</html>

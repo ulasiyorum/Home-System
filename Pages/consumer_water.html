@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/f590c28806.js" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href="../styles.css";/>
+    <title>Water</title>
+  </head>
+  <body>
+    <div id="root">
+        <div class="flex flex-col my-4">
+            <a href="../consumer_main.html" class="flex flex-col absolute mx-4 w-8">
+                <i class="fa-solid fa-arrow-left mx-4"></i>
+                <h4>Back</h4>
+            </a>
+            <h1 class="m-auto my-4">Water</h1>
+            <div class="flex flex-row m-auto">
+                <div class="flex flex-col border-black mt-4 mx-4 rounded-md w-20 h-20">
+                    <i class="fa-solid fa-temperature-high mb-8 mt-16 mx-auto scale3"></i>
+                    <h3 class="mx-auto my-4">Bath Temperature</h3>
+                    <div class="flex mx-auto flex-row">
+                        <p class="waterNumber mx-4">0°</p>
+                    </div>
+                </div>
+                <div class="flex flex-col border-black mt-4 mx-4 rounded-md w-20 h-20">
+                    <i class="fa-solid fa-temperature-high mb-8 mt-16 mx-auto scale3"></i>
+                    <h3 class="mx-auto my-4">Pool Temperature</h3>
+                    <div class="flex mx-auto flex-row">
+                        <p class="waterNumber m-auto mx-4">0°</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-row m-auto">
+                <div class="flex flex-col border-black mt-4 mx-4 rounded-md w-20 h-20">
+                    <i class="fa-solid fa-water mb-8 mt-16 mx-auto scale3"></i>
+                    <h3 class="mx-auto my-4">Bath Volume</h3>
+                    <div class="flex mx-auto flex-row">
+                        <p class="waterNumber mx-4">0L</p>
+                    </div>
+                </div>
+                <div class="flex flex-col border-black mt-4 mx-4 rounded-md w-20 h-20">
+                    <i class="fa-solid fa-water mb-8 mt-16 mx-auto scale3"></i>
+                    <h3 class="mx-auto my-4">Pool Volume</h3>
+                    <div class="flex mx-auto flex-row">
+                        <p class="waterNumber mx-4">0L</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script type="module" src="../lib/consumer_water.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/f590c28806.js" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href="../styles.css";/>
+    <title>Locks</title>
+  </head>
+  <body>
+    <div id="root">
+        <div class="flex flex-col my-4">
+          <a href="../producer_main.html" class="flex flex-col absolute mx-4 w-8">
+            <i class="fa-solid fa-arrow-left mx-4"></i>
+            <h4>Back</h4>
+          </a>
+            <h1 class="m-auto my-4">Locks</h1>
+            <div class="flex flex-row m-auto">
+              <div class="flex flex-col border-black mt-4 mx-4 rounded-md w-20 h-20">
+                <i class="fa-solid fa-house mb-8 mt-16 mx-auto scale4"></i>
+                <h2 class="mx-auto my-4">House</h2>
+                <label class="toggle-switch m-auto">
+                  <input id="houselock" type="checkbox">
+                  <span class="slider flex flex-row">
+                    <i class="fa-solid mx-2 my-4 fa-lock color-light"></i>
+                    <i class="fa-solid fa-lock-open mx-2 my-4 color-light"></i>
+                  </span>
+                </label>
+              </div>
+              <div class="flex flex-col border-black mt-4 mx-4 rounded-md w-20 h-20">
+                <i class="fa-solid fa-warehouse mb-8 mt-16 mx-auto scale4"></i>
+                <h2 class="mx-auto my-4">Garage</h2>
+                <label class="toggle-switch m-auto">
+                  <input id="garagelock" type="checkbox">
+                  <span class="slider flex flex-row">
+                    <i class="fa-solid mx-2 my-4 fa-lock color-light"></i>
+                    <i class="fa-solid fa-lock-open mx-2 my-4 color-light"></i>
+                  </span>
+                </label>
+              </div>
+            </div>
+        </div>
+
+    </div>
+    <script type="module" src="../lib/producer_locks.js"></script>
+  </body>
+</html>
