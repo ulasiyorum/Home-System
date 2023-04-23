@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
     <script src="https://kit.fontawesome.com/f590c28806.js" crossorigin="anonymous"></script>
     <link rel = "stylesheet" href="../styles.css";/>
     <title>Water</title>
@@ -29,6 +32,10 @@
                     <div class="flex mx-auto flex-row">
                         <p class="waterNumber m-auto mx-4">0°</p>
                     </div>
+                    
+                </div>
+                <div>
+                    <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
                 </div>
             </div>
             <div class="flex flex-row m-auto">
@@ -45,6 +52,9 @@
                     <div class="flex mx-auto flex-row">
                         <p class="waterNumber mx-4">0L</p>
                     </div>
+                </div>
+                <div>
+                    <canvas id="myChart2" style="width:100%;max-width:700px"></canvas>
                 </div>
             </div>
         </div>

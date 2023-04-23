@@ -12,7 +12,15 @@
     --text-color-light: #f8f9fa;
     --orange: #DB833B;
   }
-
+  .graph {
+    border: 1px solid #ccc;
+  }
+  
+  .line {
+    stroke: blue;
+    stroke-width: 2;
+    fill: none;
+  }
 
   .bg-orange 
   {
