@@ -10,7 +10,9 @@ Second part is consumer part. There could be multiple consumers. They can see da
   
   
 <h3>Application Screenshots</h3>
-  
+<h1>Landing Page</h1>
+  <img width="75%" height="75%" src="https://user-images.githubusercontent.com/101286736/233847570-21c1f5fc-cd65-47ad-95ea-64c109ebe21f.png"/>
+
   <h1>AUTH</h1>
   <h4>Login</h4>
   <img width="75%" src="https://user-images.githubusercontent.com/101286736/232562234-f0d2b1ed-fedd-48f5-aff3-313e99157580.png"/>
