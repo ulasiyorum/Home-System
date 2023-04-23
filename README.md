@@ -11,7 +11,7 @@ Second part is consumer part. There could be multiple consumers. They can see da
   
 <h3>Application Screenshots</h3>
 <h1>Landing Page</h1>
-  <img width="75%" height="75%" src="https://user-images.githubusercontent.com/101286736/233847570-21c1f5fc-cd65-47ad-95ea-64c109ebe21f.png"/>
+  <img width="75%" height="75%" src="https://user-images.githubusercontent.com/101286736/233848975-f32657b4-6144-431f-ab8e-79f9782940e9.png"/>
 
   <h1>AUTH</h1>
   <h4>Login</h4>
@@ -65,7 +65,7 @@ Second part is consumer part. There could be multiple consumers. They can see da
 <h4>Mails</h4>
 <img width="75%" height="75%" src="https://user-images.githubusercontent.com/101286736/232547082-053b32b4-dd31-4ecc-be8d-6afc8f3517c9.png"/>
 <h4>Water</h4>
-<img width="75%" height="75%" src="https://user-images.githubusercontent.com/101286736/232547169-e4ef7042-0f6e-4d69-9fe8-525204c0f69d.png"/>
+<img width="75%" height="75%" src="https://user-images.githubusercontent.com/101286736/233848993-2aea2859-d5f1-446c-b809-cb41cd0b2371.png"/>
 <h4>Temperature</h4>
 <img width="75%" height="75%" src="https://user-images.githubusercontent.com/101286736/232547293-03b4264b-809a-4f13-a4db-db8126d84869.png"/>
 <h4>Music</h4>
